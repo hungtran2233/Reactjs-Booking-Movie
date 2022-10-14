@@ -1,0 +1,82 @@
+.Header {
+	background-color: #ffffff;
+
+	box-shadow: rgba(50, 50, 93, 0.25) 10px -9px 12px -2px,
+		rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+	.navbar {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		background-color: #fff;
+		padding: 0 !important;
+		.left {
+			width: 30%;
+			display: flex;
+			align-items: center;
+			justify-content: start;
+
+			.logo {
+				img {
+					width: 120px;
+					height: 80px;
+					object-fit: contain;
+					cursor: pointer;
+				}
+			}
+
+			.ticket {
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				p {
+					padding: 0 1rem;
+					line-height: 2rem;
+					color: #a50064;
+					font-weight: 700;
+				}
+			}
+		}
+
+		// add -- by Hung
+		.middle {
+			width: 30%;
+			position: relative;
+			height: 50px;
+		}
+
+		.right {
+			display: flex;
+			justify-content: end;
+			font-size: 1.5rem;
+			width: 40%;
+			border-bottom: none;
+			color: #525252;
+			font-weight: 600;
+			.nav-sub {
+				margin-left: 20px;
+			}
+		}
+	}
+}
+
+@media only screen and (max-width: 768px) {
+	.Header {
+		.navbar {
+			.left {
+				.ticket {
+					display: none;
+				}
+			}
+		}
+	}
+}
+
+@media only screen and (max-width: 576px) {
+	.Header {
+		.navbar {
+			.middle {
+				width: 60%;
+			}
+		}
+	}
+}

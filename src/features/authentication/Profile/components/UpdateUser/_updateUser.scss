@@ -1,0 +1,46 @@
+.UpdateUser {
+	.content-left {
+		border: 1px solid rgb(210, 209, 209);
+
+		h3 {
+			background-color: #b9d8f7;
+			padding: 10px;
+			text-align: center;
+			color: black;
+			font-size: 20px;
+		}
+		.form {
+			padding: 20px;
+			width: 60%;
+			margin: 0 auto;
+			.form-group {
+				display: flex;
+				justify-content: flex-end;
+				align-items: center;
+				flex-wrap: wrap;
+				padding: 10px;
+
+				label {
+					width: 25%;
+				}
+				.input {
+					width: 75%;
+				}
+
+				.errorText {
+					color: red;
+					margin: 0;
+				}
+			}
+
+			.btn-handle {
+				margin-top: 20px;
+				text-align: center;
+
+				.btn-submit {
+					margin-right: 15px;
+				}
+			}
+		}
+	}
+}

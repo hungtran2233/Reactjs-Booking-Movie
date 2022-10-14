@@ -1,0 +1,29 @@
+.time__movies {
+  display: flex;
+  flex-direction: column;
+  width: 8rem;
+  height: 8rem;
+  margin-bottom: 10px;
+  border-radius: 12px;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  overflow: hidden;
+  .month {
+    
+    width: 100%;
+    display: block;
+    background-color: #a50064;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #fff;
+  }
+  .date {
+    font-size: 1.5rem;
+    border-bottom: #1890ff solid 1px;
+  }
+  .time {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+}

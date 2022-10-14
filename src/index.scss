@@ -1,0 +1,54 @@
+@import "antd/dist/antd.css";
+@import "./styles/main.scss";
+// @import 'features/movies/pages/home/components/filterMovies/components/theater-group/TheaterGroup.scss';
+//Header --by Phong
+// @import './styles/Helper/mixin';
+@import "./common/components/Header/header";
+// Filter Components --by Phong
+@import "features/movies/pages/home/components/filterMovies/FilterMovies.scss";
+// Home -> Banner --by Hung
+@import "features/movies/pages/home/components/Banner/banner";
+// Home -> NowShowingMovie --by Hung
+@import "features/movies/pages/home/components/NowShowingMovie/nowShowingMovie";
+// Home -> NowShowingMovie -> ShowingMovieItem  --by Hung
+@import "features/movies/pages/home/components/NowShowingMovie/components/ShowingMovieItem/showingMovieItem";
+// Home -> UpcomingMovie  --by Hung
+@import "features/movies/pages/home/components/UpcomingMovie/upcomingMovie";
+// Home -> UpcomingMovie -> UpcomingMovieItem  --by Hung
+@import "features/movies/pages/home/components/UpcomingMovie/components/UpcomingMovieItem/upcomingMovieItem";
+// Home -> Arrow Slick --by Hung
+@import "features/movies/pages/home/components/SliderArrow/arrowSlick";
+// Home -> Trailer  --by Hung
+@import "features/movies/pages/home/components/Trailer/trailer";
+// Home -> TrailerItem --by Hung
+@import "features/movies/pages/home/components/Trailer/components/TrailerItem/trailerItem";
+// Home --> CinemasGroup --by Hung
+@import "features/movies/pages/home/components/CinemasGroup/cinemasGroup";
+
+// Detail  --by Hung
+@import "features/movies/pages/detail/detail";
+@import "features/movies/pages/detail/components/MovieInfo/movieInfo";
+@import "features/movies/pages/detail/components/MovieBody/components/MovieSchedule/movieSchedule";
+@import "features/movies/pages/detail/components/MovieBody/components/MovieSchedule/TheaterInfo/theaterInfo";
+// Detail -> MovieBody -> RateStar
+@import "features/movies/pages/detail/components/MovieBody/components/RateStar/rateStar";
+// SignUp  -- by Hung
+@import "features/authentication/signUp/signUp";
+@import "features/authentication/signIn/signIn";
+
+// Profile --by Hung
+@import "features/authentication/Profile/profile";
+// Update user
+@import "features/authentication/Profile/components/UpdateUser/updateUser";
+// Comment --by Hung
+@import "features/movies/pages/detail/components/MovieBody/components/UserComment/comment";
+// Scroll to top
+@import "features/movies/components/ScrollToTop/scrollToTop";
+// Footer
+@import "common/components/Footer/footer";
+// Header -> SearchBar  --by Hung
+@import "common/components/Header/components/SearchBar/searchBar";
+
+///////
+@import "features/movies/pages/home/components/filterMovies/components/theater-group/TheaterGroup";
+@import "features/movies/pages/home/components/filterMovies/components/date-custom/dateTheater";
